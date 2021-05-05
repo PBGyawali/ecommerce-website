@@ -1,0 +1,20 @@
+<nav class="navbar navbar-dark navbar-expand p-0 bg-primary">
+<div class="container">
+    <ul class="navbar-nav d-none d-md-flex mr-auto">
+		<li class="nav-item"><a class="nav-link" href="">Home</a></li>
+		<li class="nav-item"><a class="nav-link" href="">Delivery</a></li>
+		<li class="nav-item"><a class="nav-link" href="">Payment</a></li>
+    </ul>
+    <ul class="navbar-nav">
+		<li class="nav-item"><a href="" class="nav-link"> Call: +<?=rand(1,999);?> <?='98'.mt_rand( 10000000, 99999999);?></a></li>
+		<li class="nav-item dropdown">
+		 	<a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"> English </a>
+		    <ul class="dropdown-menu dropdown-menu-right" style="max-width: 100px;">
+				<li><a class="dropdown-item" href="">Arabic</a></li>
+				<li><a class="dropdown-item" href="">Russian </a></li>
+		    </ul>
+		</li>
+	</ul> <!-- list-inline //  -->
+  </div> <!-- navbar-collapse .// -->
+ <!-- container //  -->
+</nav> <!-- header-top-light.// -->
